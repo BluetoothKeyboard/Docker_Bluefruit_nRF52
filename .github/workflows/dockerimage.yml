@@ -12,4 +12,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag bluetoothkeyboard/Docker_Bluefruit_nRF52:$(date +%s)
+      run: docker build . --file Dockerfile --tag bluetoothkeyboard/arduino-cli-bluefruit-nrf52:$(date +%s)
