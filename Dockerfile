@@ -1,4 +1,4 @@
-FROM jpconstantineau/arduino-cli:latest 
+FROM bluetoothkeyboard/arduino-cli:latest
 
 RUN dpkg --add-architecture i386
 RUN apt-get update && apt-get install -y libc6:i386 && rm -rf /var/lib/apt/lists/*
