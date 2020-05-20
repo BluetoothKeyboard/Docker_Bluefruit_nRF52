@@ -8,3 +8,5 @@ Latest build: BSP 0.20.1
 Uses the latest Arduino-CLI image 0.10.0
 
 Find the container for you to use on [Dockerhub](https://hub.docker.com/repository/docker/bluetoothkeyboard/arduino-cli-bluefruit-nrf52).
+
+It uses `bluetoothkeyboard/arduino-cli` as a base image with ARDUINO_DATA_DIR=/opt/arduino set.
